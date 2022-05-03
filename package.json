@@ -1,0 +1,22 @@
+{
+  "name": "employee-report",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Employee report kata",
+  "main": "index.js",
+  "author": "Jason Ryan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.17.10",
+    "chance": "^1.1.8",
+    "eslint": "^8.14.0",
+    "eslint-config-get-off-my-lawn": "^7.1.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .js,.json",
+    "format": "prettier --write ."
+  }
+}
